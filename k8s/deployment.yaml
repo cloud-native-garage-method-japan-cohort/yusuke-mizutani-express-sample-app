@@ -52,6 +52,7 @@ spec:
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
         imagePullPolicy: IfNotPresent
+      imagePullSecrets: yumizuq-pull-secret
       securityContext: {}
   revisionHistoryLimit: 10
   progressDeadlineSeconds: 600
